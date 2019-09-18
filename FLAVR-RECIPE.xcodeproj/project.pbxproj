@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8106D598233294FF00868691 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106D597233294FF00868691 /* CustomColor.swift */; };
 		818BA545233226F7006DDB2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BA544233226F7006DDB2D /* AppDelegate.swift */; };
 		818BA547233226F7006DDB2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BA546233226F7006DDB2D /* ViewController.swift */; };
 		818BA54A233226F7006DDB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818BA548233226F7006DDB2D /* Main.storyboard */; };
 		818BA54C233226F9006DDB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818BA54B233226F9006DDB2D /* Assets.xcassets */; };
 		818BA54F233226F9006DDB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818BA54D233226F9006DDB2D /* LaunchScreen.storyboard */; };
+		818BA55723322CB9006DDB2D /* Chameleon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818BA55623322CB9006DDB2D /* Chameleon.framework */; };
+		818BA55823322CB9006DDB2D /* Chameleon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 818BA55623322CB9006DDB2D /* Chameleon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		818BA55923322CB9006DDB2D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				818BA55823322CB9006DDB2D /* Chameleon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8106D597233294FF00868691 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		818BA541233226F7006DDB2D /* FLAVR-RECIPE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLAVR-RECIPE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		818BA544233226F7006DDB2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		818BA546233226F7006DDB2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,7 @@
 		818BA54B233226F9006DDB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		818BA54E233226F9006DDB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		818BA550233226F9006DDB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818BA55623322CB9006DDB2D /* Chameleon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chameleon.framework; path = Carthage/Build/iOS/Chameleon.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,15 +48,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				818BA55723322CB9006DDB2D /* Chameleon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8106D596233294E800868691 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8106D597233294FF00868691 /* CustomColor.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		818BA538233226F7006DDB2D = {
 			isa = PBXGroup;
 			children = (
+				818BA55623322CB9006DDB2D /* Chameleon.framework */,
 				818BA543233226F7006DDB2D /* FLAVR-RECIPE */,
 				818BA542233226F7006DDB2D /* Products */,
 			);
@@ -54,6 +83,7 @@
 		818BA543233226F7006DDB2D /* FLAVR-RECIPE */ = {
 			isa = PBXGroup;
 			children = (
+				8106D596233294E800868691 /* models */,
 				818BA544233226F7006DDB2D /* AppDelegate.swift */,
 				818BA546233226F7006DDB2D /* ViewController.swift */,
 				818BA548233226F7006DDB2D /* Main.storyboard */,
@@ -74,6 +104,7 @@
 				818BA53D233226F7006DDB2D /* Sources */,
 				818BA53E233226F7006DDB2D /* Frameworks */,
 				818BA53F233226F7006DDB2D /* Resources */,
+				818BA55923322CB9006DDB2D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,6 +168,7 @@
 			files = (
 				818BA547233226F7006DDB2D /* ViewController.swift in Sources */,
 				818BA545233226F7006DDB2D /* AppDelegate.swift in Sources */,
+				8106D598233294FF00868691 /* CustomColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +316,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q5RQXBC2F2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "FLAVR-RECIPE/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +338,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q5RQXBC2F2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "FLAVR-RECIPE/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

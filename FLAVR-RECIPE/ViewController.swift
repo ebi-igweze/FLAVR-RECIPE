@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import Chameleon
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // get the gradient colors for button
+        let leftColor = UIColor(hexString: "FF8C28", withAlpha: 1)!
+        let rightColor = UIColor(hexString: "FF6322", withAlpha: 1)!
+        
+        // create a color gradient using the button frame and color list
+        self.view.backgroundColor = GradientColor(.leftToRight, frame: view.frame, colors: [leftColor, rightColor])
+
     }
 
 
