@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		8106D598233294FF00868691 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106D597233294FF00868691 /* CustomColor.swift */; };
+		8106D59B2332986100868691 /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106D59A2332986100868691 /* LoginSignupViewController.swift */; };
 		818BA545233226F7006DDB2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BA544233226F7006DDB2D /* AppDelegate.swift */; };
-		818BA547233226F7006DDB2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BA546233226F7006DDB2D /* ViewController.swift */; };
 		818BA54A233226F7006DDB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818BA548233226F7006DDB2D /* Main.storyboard */; };
 		818BA54C233226F9006DDB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818BA54B233226F9006DDB2D /* Assets.xcassets */; };
 		818BA54F233226F9006DDB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818BA54D233226F9006DDB2D /* LaunchScreen.storyboard */; };
 		818BA55723322CB9006DDB2D /* Chameleon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818BA55623322CB9006DDB2D /* Chameleon.framework */; };
 		818BA55823322CB9006DDB2D /* Chameleon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 818BA55623322CB9006DDB2D /* Chameleon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		81AA5DB12334C1E0005DB2B3 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA5DB02334C1E0005DB2B3 /* ButtonExtension.swift */; };
+		81AA5DB32334D72E005DB2B3 /* LabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA5DB22334D72E005DB2B3 /* LabelExtensions.swift */; };
+		81AA5DB52334DE50005DB2B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA5DB42334DE50005DB2B3 /* LoginViewController.swift */; };
+		81AA5DB7233510EF005DB2B3 /* TextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA5DB6233510EF005DB2B3 /* TextViewExtensions.swift */; };
+		81AA5DBB23351EA5005DB2B3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA5DBA23351EA5005DB2B3 /* SignUpViewController.swift */; };
+		81AA5DBD23352AE9005DB2B3 /* CustomNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA5DBC23352AE9005DB2B3 /* CustomNavController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,14 +39,20 @@
 
 /* Begin PBXFileReference section */
 		8106D597233294FF00868691 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		8106D59A2332986100868691 /* LoginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
 		818BA541233226F7006DDB2D /* FLAVR-RECIPE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLAVR-RECIPE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		818BA544233226F7006DDB2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		818BA546233226F7006DDB2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		818BA549233226F7006DDB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		818BA54B233226F9006DDB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		818BA54E233226F9006DDB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		818BA550233226F9006DDB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		818BA55623322CB9006DDB2D /* Chameleon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chameleon.framework; path = Carthage/Build/iOS/Chameleon.framework; sourceTree = "<group>"; };
+		81AA5DB02334C1E0005DB2B3 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		81AA5DB22334D72E005DB2B3 /* LabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtensions.swift; sourceTree = "<group>"; };
+		81AA5DB42334DE50005DB2B3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		81AA5DB6233510EF005DB2B3 /* TextViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewExtensions.swift; sourceTree = "<group>"; };
+		81AA5DBA23351EA5005DB2B3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		81AA5DBC23352AE9005DB2B3 /* CustomNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,17 @@
 			path = models;
 			sourceTree = "<group>";
 		};
+		8106D5992332983E00868691 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8106D59A2332986100868691 /* LoginSignupViewController.swift */,
+				81AA5DB42334DE50005DB2B3 /* LoginViewController.swift */,
+				81AA5DBA23351EA5005DB2B3 /* SignUpViewController.swift */,
+				81AA5DBC23352AE9005DB2B3 /* CustomNavController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
 		818BA538233226F7006DDB2D = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +106,26 @@
 		818BA543233226F7006DDB2D /* FLAVR-RECIPE */ = {
 			isa = PBXGroup;
 			children = (
+				81AA5DAF2334C1C5005DB2B3 /* extensions */,
+				8106D5992332983E00868691 /* viewControllers */,
 				8106D596233294E800868691 /* models */,
 				818BA544233226F7006DDB2D /* AppDelegate.swift */,
-				818BA546233226F7006DDB2D /* ViewController.swift */,
 				818BA548233226F7006DDB2D /* Main.storyboard */,
 				818BA54B233226F9006DDB2D /* Assets.xcassets */,
 				818BA54D233226F9006DDB2D /* LaunchScreen.storyboard */,
 				818BA550233226F9006DDB2D /* Info.plist */,
 			);
 			path = "FLAVR-RECIPE";
+			sourceTree = "<group>";
+		};
+		81AA5DAF2334C1C5005DB2B3 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				81AA5DB02334C1E0005DB2B3 /* ButtonExtension.swift */,
+				81AA5DB22334D72E005DB2B3 /* LabelExtensions.swift */,
+				81AA5DB6233510EF005DB2B3 /* TextViewExtensions.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,9 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				818BA547233226F7006DDB2D /* ViewController.swift in Sources */,
+				81AA5DB52334DE50005DB2B3 /* LoginViewController.swift in Sources */,
+				81AA5DBD23352AE9005DB2B3 /* CustomNavController.swift in Sources */,
 				818BA545233226F7006DDB2D /* AppDelegate.swift in Sources */,
+				81AA5DBB23351EA5005DB2B3 /* SignUpViewController.swift in Sources */,
+				81AA5DB32334D72E005DB2B3 /* LabelExtensions.swift in Sources */,
+				81AA5DB12334C1E0005DB2B3 /* ButtonExtension.swift in Sources */,
+				8106D59B2332986100868691 /* LoginSignupViewController.swift in Sources */,
 				8106D598233294FF00868691 /* CustomColor.swift in Sources */,
+				81AA5DB7233510EF005DB2B3 /* TextViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
