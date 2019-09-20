@@ -28,7 +28,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1WG-ZL-9cV" userLabel="loginButton">
                                         <rect key="frame" x="0.0" y="0.0" width="331" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="1" green="0.38823529410000002" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="n1R-CQ-XKo"/>
                                         </constraints>
@@ -135,7 +135,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C40-th-oBE" userLabel="loginButton">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="1" green="0.38823529410000002" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="gIq-vH-y1m"/>
                                         </constraints>
@@ -167,6 +167,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UDX-Gj-tCP"/>
                     </view>
+                    <navigationItem key="navigationItem" id="gWu-uf-fef">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="Previous" id="a9I-si-YbU">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="backButtonTapped:" destination="DI0-vr-f9t" id="6yK-7k-eyh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="emailInput" destination="sg8-QJ-kf5" id="b4k-c2-HdW"/>
                         <outlet property="forgotPasswordLabel" destination="SPe-A7-d7E" id="gbY-cj-pU3"/>
@@ -233,7 +241,7 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuB-JJ-WfC" userLabel="signupButton">
                                 <rect key="frame" x="20" y="552" width="335" height="48"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="1" green="0.38823529410000002" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="JZy-jA-Dfl"/>
                                 </constraints>
@@ -257,6 +265,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WQ8-KK-LKt"/>
                     </view>
+                    <navigationItem key="navigationItem" id="bjV-bp-fXa">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="Previous" id="njZ-PO-oGg">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="backButtonTapped:" destination="M7N-Kp-6ov" id="8b3-us-Egp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="emailInput" destination="VLN-lr-9px" id="mOH-2J-bwL"/>
                         <outlet property="nameInput" destination="iPV-Bs-I6U" id="c6y-gS-fJ4"/>
@@ -289,4 +305,7 @@
             <point key="canvasLocation" x="-42.399999999999999" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Previous" width="20" height="20"/>
+    </resources>
 </document>

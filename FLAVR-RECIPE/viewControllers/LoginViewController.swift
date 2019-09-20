@@ -31,6 +31,9 @@ class LoginViewController: UIViewController {
         setupForm()
     }
     
+    @IBAction func backButtonTapped(_ sender: Any) {
+          navigationController?.popViewController(animated: true)
+    }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
